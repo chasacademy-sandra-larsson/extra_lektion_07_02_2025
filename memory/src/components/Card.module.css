@@ -1,0 +1,27 @@
+.cardGrid {
+    position: relative;
+  }
+  
+  .imgFront {
+    width: 100%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+  }
+  
+  .imgFront.flipped {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+  }
+  
+  .imgBack {
+    width: 100%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+  }
